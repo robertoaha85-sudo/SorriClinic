@@ -88,6 +88,7 @@ const Lightbox = ({ src, isOpen, onClose }: { src: string, isOpen: boolean, onCl
 );
 
 export default function App() {
+  console.log('App rendering');
   const [lightboxImage, setLightboxImage] = useState<string | null>(null);
 
   return (
